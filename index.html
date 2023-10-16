@@ -1,523 +1,507 @@
 <!DOCTYPE html>
 <html lang="english">
-  <head>
-    <title>exported project</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
 
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Inter;
-        font-size: 16px;
-      }
+<head>
+  <title>exported project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta property="twitter:card" content="summary_large_image" />
 
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
+  <style data-tag="reset-style-sheet">
+    html {
+      line-height: 1.15;
+    }
 
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-  </head>
-  <body>
-    <link rel="stylesheet" href="./style.css" />
-    <div>
-      <link href="./i-phone1415-pro-max1.css" rel="stylesheet" />
+    body {
+      margin: 0;
+    }
 
-      <div class="i-phone1415-pro-max1-container">
-        <div class="i-phone1415-pro-max1-i-phone1415-pro-max1">
-          <div class="i-phone1415-pro-max1-group1">
-            <img
-              alt="Vector15172"
-              src="public/external/vector15172-5mi9.svg"
-              class="i-phone1415-pro-max1-vector1"
-            />
-            <img
-              alt="undrawhomerunacyh15173"
-              src="public/external/undrawhomerunacyh15173-i31.svg"
-              class="i-phone1415-pro-max1-undrawhomerunacyh1"
-            />
-            <span class="i-phone1415-pro-max1-text">
-              <span class="i-phone1415-pro-max1-text001">EXPOTEC</span>
-              <span class="i-phone1415-pro-max1-text002">2023</span>
+    * {
+      box-sizing: border-box;
+      border-width: 0;
+      border-style: solid;
+    }
+
+    p,
+    li,
+    ul,
+    pre,
+    div,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    figure,
+    blockquote,
+    figcaption {
+      margin: 0;
+      padding: 0;
+    }
+
+    button {
+      background-color: transparent;
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      font-family: inherit;
+      font-size: 100%;
+      line-height: 1.15;
+      margin: 0;
+    }
+
+    button,
+    select {
+      text-transform: none;
+    }
+
+    button,
+    [type="button"],
+    [type="reset"],
+    [type="submit"] {
+      -webkit-appearance: button;
+    }
+
+    button::-moz-focus-inner,
+    [type="button"]::-moz-focus-inner,
+    [type="reset"]::-moz-focus-inner,
+    [type="submit"]::-moz-focus-inner {
+      border-style: none;
+      padding: 0;
+    }
+
+    button:-moz-focus,
+    [type="button"]:-moz-focus,
+    [type="reset"]:-moz-focus,
+    [type="submit"]:-moz-focus {
+      outline: 1px dotted ButtonText;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+
+    input {
+      padding: 2px 4px;
+    }
+
+    img {
+      display: block;
+    }
+
+    html {
+      scroll-behavior: smooth
+    }
+  </style>
+  <style data-tag="default-style-sheet">
+    html {
+      font-family: Inter;
+      font-size: 16px;
+    }
+
+    body {
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      text-transform: none;
+      letter-spacing: normal;
+      line-height: 1.15;
+      color: var(--dl-color-gray-black);
+      background-color: var(--dl-color-gray-white);
+
+    }
+  </style>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" data-tag="font" />
+</head>
+
+<body>
+  <link rel="stylesheet" href="./style.css" />
+  <div>
+    <link href="./i-phone1415-pro-max1.css" rel="stylesheet" />
+
+    <div class="i-phone1415-pro-max1-container">
+      <div class="i-phone1415-pro-max1-i-phone1415-pro-max1" style="overflow-x: scroll; overflow-y: hidden;">
+        <div class="i-phone1415-pro-max1-group1">
+          <img alt="Vector15172" src="public/external/vector15172-5mi9.svg" class="i-phone1415-pro-max1-vector1" />
+          <img alt="undrawhomerunacyh15173" src="public/external/undrawhomerunacyh15173-i31.svg" class="i-phone1415-pro-max1-undrawhomerunacyh1" />
+          <span class="i-phone1415-pro-max1-text">
+            <span class="i-phone1415-pro-max1-text001">EXPOTEC</span>
+            <span class="i-phone1415-pro-max1-text002">2023</span>
+          </span>
+          <span class="i-phone1415-pro-max1-text003">
+            <span>RICHARD DOMINGOS NASCIMENTO JUNIOR</span>
+            <br />
+            <span>GUILHERME FELIPE MARQUES DOS SANTOS</span>
+            <br />
+            <span>LOUISE SANTIAGO</span>
+            <br />
+            <span>ARTHUR HENRIQUE</span>
+            <br />
+            <span>HELOÍSA LEANDR</span>
+            <span>A DA MATA</span>
+          </span>
+          <span class="i-phone1415-pro-max1-text014">
+            <span>- CMR2A</span>
+          </span>
+        </div>
+        <div class="i-phone1415-pro-max1-group4">
+          <span class="i-phone1415-pro-max1-text016">
+            <span>
+              Hábitos saudáveis são costumes, ações e escolhas regulares que
+              contribuem para a saúde.
             </span>
-            <span class="i-phone1415-pro-max1-text003">
-              <span>RICHARD DOMINGOS NASCIMENTO JUNIOR</span>
-              <br />
-              <span>GUILHERME FELIPE MARQUES DOS SANTOS</span>
-              <br />
-              <span>LOUISE SANTIAGO</span>
-              <br />
-              <span>ARTHUR HENRIQUE</span>
-              <br />
-              <span>HELOÍSA LEANDR</span>
-              <span>A DA MATA</span>
+            <br class="i-phone1415-pro-max1-text018" />
+            <span>
+              Este relatório detalhou nossa participação na Expotec 2023, um
+              evento dedicado à&nbsp;
             </span>
-            <span class="i-phone1415-pro-max1-text014">
-              <span>- CMR2A</span>
+            <span>
+              inovação e educação. Nosso projeto tinha como objetivo promover
+              o esporte, a&nbsp;
             </span>
-          </div>
-          <div class="i-phone1415-pro-max1-group4">
-            <span class="i-phone1415-pro-max1-text016">
+            <span>
+              alimentação saudável e a conscientização sobre a importância de
+              ambos.
+            </span>
+            <br />
+          </span>
+          <span class="i-phone1415-pro-max1-text023">
+            <span>FIM</span>
+            <br />
+            <br />
+            <br />
+          </span>
+        </div>
+        <div class="i-phone1415-pro-max1-group41">
+          <span class="i-phone1415-pro-max1-text028">
+            <span>
               <span>
                 Hábitos saudáveis são costumes, ações e escolhas regulares que
-                contribuem para a saúde.
-              </span>
-              <br class="i-phone1415-pro-max1-text018" />
-              <span>
-                Este relatório detalhou nossa participação na Expotec 2023, um
-                evento dedicado à&nbsp;
-              </span>
-              <span>
-                inovação e educação. Nosso projeto tinha como objetivo promover
-                o esporte, a&nbsp;
-              </span>
-              <span>
-                alimentação saudável e a conscientização sobre a importância de
-                ambos.
+                contribuem
               </span>
               <br />
-            </span>
-            <span class="i-phone1415-pro-max1-text023">
-              <span>FIM</span>
-              <br />
-              <br />
-              <br />
-            </span>
-          </div>
-          <div class="i-phone1415-pro-max1-group41">
-            <span class="i-phone1415-pro-max1-text028">
               <span>
-                <span>
-                  Hábitos saudáveis são costumes, ações e escolhas regulares que
-                  contribuem
-                </span>
-                <br />
-                <span>
-                  para a saúde e o bem-estar da criança. Ou seja, uma rotina que
-                  envolve aprendizados
-                </span>
-                <br />
-                <span>
-                  e elementos favoráveis ao desenvolvimento infantil. Com uma
-                  rotina saudável, a
-                </span>
-                <br />
-                <span>
-                  criança receberá uma série de estímulos e aprendizados
-                  práticos sobre cuidados com
-                </span>
-                <br />
-                <span>
-                  o corpo, relacionamentos, gestão da emoção, importância dos
-                  estudos etc. E o mais
-                </span>
-                <br />
-                <span>
-                  importante: com o tempo, ela perceberá os benefícios da adoção
-                  de práticas saudáveis
-                </span>
-                <br />
-                <span>
-                  e, autonomamente, trará outras ações positivas para seu
-                  cotidiano. Então, não perca
-                </span>
-                <br />
-                <span>
-                  mais tempo e entenda como começar agora mesmo! Estabeleça
-                  limites para o uso de
-                </span>
-                <br />
-                <span>
-                  tecnologia e tempo de tela A Sociedade Brasileira de Pediatria
-                  (SBP) recomenda que o
-                </span>
-                <br />
-                <span>
-                  tempo de tela deve ser o menor possível, seja qual for a
-                  idade. Geralmente,
-                </span>
-                <br />
-                <span>
-                  dispositivos eletrônicos, televisão, smartfones e videogames
-                  entram na rotina de
-                </span>
-                <br />
-                <span>
-                  crianças para combater o tédio, promover distração ou como
-                  recompensas. No
-                </span>
-                <br />
-                <span>
-                  entanto, fato é que até o ócio é saudável para estimular a
-                  criatividade, fazer com que as crianças observem o mundo, se
-                  relacionem e brinquem com amigos e familiares.
-                </span>
-                <br />
-                <span>
-                  Então, estabeleça limites e regras para o uso das tecnologias
-                  como: quantidade de
-                </span>
-                <br />
-                <span>
-                  horas por dia, horário mais adequado (evitando os períodos
-                  noturnos) e sempre de
-                </span>
-                <br />
-                <span>
-                  forma supervisionada, entre outros. Crie uma rotina diária de
-                  estudos Definir um
-                </span>
-                <br />
-                <span>
-                  ambiente e um horário fixo para os estudos ajuda a criar o
-                  senso de compromisso com
-                </span>
-                <br />
-                <span>
-                  o aprendizado. Mesmo que a escola não envie exercícios,
-                  mantenha o cronograma
-                </span>
-                <br />
-                <span>
-                  revisando o que foi estudado na escola ou mesmo o estudo da
-                  matéria. Esse é um
-                </span>
-                <br />
-                <span>
-                  hábito saudável que, quando internalizado, ajudará a criança
-                  em toda sua fase escolar
-                </span>
-                <br />
-                <span>
-                  e também adulta, já que o desenvolvimento contínuo é muito
-                  importante para qualquer profissional. Incentive atividades ao
-                  ar livre e na natureza Atividades ao ar livre promovem grande
-                  bem-estar, trazem estímulos visuais e, principalmente,
-                  produzem memórias afetivas para toda a família. Seja um
-                  passeio no parque, seja uma ida ao clube, esses momentos de
-                  atenção plena fortalecem a conexão familiar, aumentam a
-                  autoestima das crianças e são muito divertidos, o que reforça
-                  o entendimento das crianças que hábitos saudáveis longe das
-                  tecnologias podem ser muito prazerosos.
-                </span>
-                <br />
-                <span>
-                  Promova atividades coletivas e extracurriculares Propor
-                  brincadeiras com vizinhos do
-                </span>
-                <br />
-                <span>
-                  bairro, criar uma ação beneficente na turma da escola e
-                  participar de atividades
-                </span>
-                <br />
-                <span>
-                  extracurriculares também são atividades saudáveis e ricas em
-                  estímulos. O
-                </span>
-                <br />
-                <span>
-                  pensamento coletivo, a gestão de relacionamentos com pessoas
-                  fora do círculo familiar
-                </span>
-                <br />
-                <span>
-                  e a conquista de resultados a partir da colaboração são
-                  ensinamentos valiosos para
-                </span>
-                <br />
-                <span>
-                  qualquer indivíduo em desenvolvimento. Aqui também cabem as
-                  aulas coletivas
-                </span>
-                <br />
-                <span>
-                  extracurriculares como esportes, lutas, danças, robótica,
-                  culinária e tudo mais que
-                </span>
-                <br />
-                <span>
-                  despertar o interesse das crianças. Ofereça alimentos ricos em
-                  nutrientes para
-                </span>
-                <br />
-                <span>
-                  fortalecer os hábitos saudáveis É claro que a alimentação rica
-                  em nutrientes também
-                </span>
-                <br />
-                <span>
-                  faz parte dos hábitos saudáveis — contudo, é comum que a
-                  família encontre
-                </span>
-                <br />
-                <span>
-                  resistência nessa hora. A dica é envolver as crianças nos
-                  preparos, explicar sobre seus
-                </span>
-                <br />
-                <span>
-                  benefícios para a saúde, persistir na oferta e, claro, dar o
-                  exemplo com uma dieta
-                </span>
-                <br />
-                <span>
-                  igualmente saudável. Esses não são os únicos hábitos saudáveis
-                  que podem ser
-                </span>
-                <br />
-                <span>
-                  inseridos na rotina da família, mas cada um deles pode ser o
-                  pontapé inicial para que a
-                </span>
-                <br />
-                <span>
-                  própria criança demande ou coordene uma rotina de qualidade e
-                  bem-estar para todos.
-                </span>
-                <br />
-                <span>
-                  Então, faça uma introdução de alguns deles de forma afetuosa e
-                  gradativa. Perceba os
-                </span>
-                <br />
-                <span>
-                  resultados e vá ajustando de acordo com a realidade da sua
-                  família.
-                </span>
+                para a saúde e o bem-estar da criança. Ou seja, uma rotina que
+                envolve aprendizados
+              </span>
+              <br />
+              <span>
+                e elementos favoráveis ao desenvolvimento infantil. Com uma
+                rotina saudável, a
+              </span>
+              <br />
+              <span>
+                criança receberá uma série de estímulos e aprendizados
+                práticos sobre cuidados com
+              </span>
+              <br />
+              <span>
+                o corpo, relacionamentos, gestão da emoção, importância dos
+                estudos etc. E o mais
+              </span>
+              <br />
+              <span>
+                importante: com o tempo, ela perceberá os benefícios da adoção
+                de práticas saudáveis
+              </span>
+              <br />
+              <span>
+                e, autonomamente, trará outras ações positivas para seu
+                cotidiano. Então, não perca
+              </span>
+              <br />
+              <span>
+                mais tempo e entenda como começar agora mesmo! Estabeleça
+                limites para o uso de
+              </span>
+              <br />
+              <span>
+                tecnologia e tempo de tela A Sociedade Brasileira de Pediatria
+                (SBP) recomenda que o
+              </span>
+              <br />
+              <span>
+                tempo de tela deve ser o menor possível, seja qual for a
+                idade. Geralmente,
+              </span>
+              <br />
+              <span>
+                dispositivos eletrônicos, televisão, smartfones e videogames
+                entram na rotina de
+              </span>
+              <br />
+              <span>
+                crianças para combater o tédio, promover distração ou como
+                recompensas. No
+              </span>
+              <br />
+              <span>
+                entanto, fato é que até o ócio é saudável para estimular a
+                criatividade, fazer com que as crianças observem o mundo, se
+                relacionem e brinquem com amigos e familiares.
+              </span>
+              <br />
+              <span>
+                Então, estabeleça limites e regras para o uso das tecnologias
+                como: quantidade de
+              </span>
+              <br />
+              <span>
+                horas por dia, horário mais adequado (evitando os períodos
+                noturnos) e sempre de
+              </span>
+              <br />
+              <span>
+                forma supervisionada, entre outros. Crie uma rotina diária de
+                estudos Definir um
+              </span>
+              <br />
+              <span>
+                ambiente e um horário fixo para os estudos ajuda a criar o
+                senso de compromisso com
+              </span>
+              <br />
+              <span>
+                o aprendizado. Mesmo que a escola não envie exercícios,
+                mantenha o cronograma
+              </span>
+              <br />
+              <span>
+                revisando o que foi estudado na escola ou mesmo o estudo da
+                matéria. Esse é um
+              </span>
+              <br />
+              <span>
+                hábito saudável que, quando internalizado, ajudará a criança
+                em toda sua fase escolar
+              </span>
+              <br />
+              <span>
+                e também adulta, já que o desenvolvimento contínuo é muito
+                importante para qualquer profissional. Incentive atividades ao
+                ar livre e na natureza Atividades ao ar livre promovem grande
+                bem-estar, trazem estímulos visuais e, principalmente,
+                produzem memórias afetivas para toda a família. Seja um
+                passeio no parque, seja uma ida ao clube, esses momentos de
+                atenção plena fortalecem a conexão familiar, aumentam a
+                autoestima das crianças e são muito divertidos, o que reforça
+                o entendimento das crianças que hábitos saudáveis longe das
+                tecnologias podem ser muito prazerosos.
+              </span>
+              <br />
+              <span>
+                Promova atividades coletivas e extracurriculares Propor
+                brincadeiras com vizinhos do
+              </span>
+              <br />
+              <span>
+                bairro, criar uma ação beneficente na turma da escola e
+                participar de atividades
+              </span>
+              <br />
+              <span>
+                extracurriculares também são atividades saudáveis e ricas em
+                estímulos. O
+              </span>
+              <br />
+              <span>
+                pensamento coletivo, a gestão de relacionamentos com pessoas
+                fora do círculo familiar
+              </span>
+              <br />
+              <span>
+                e a conquista de resultados a partir da colaboração são
+                ensinamentos valiosos para
+              </span>
+              <br />
+              <span>
+                qualquer indivíduo em desenvolvimento. Aqui também cabem as
+                aulas coletivas
+              </span>
+              <br />
+              <span>
+                extracurriculares como esportes, lutas, danças, robótica,
+                culinária e tudo mais que
+              </span>
+              <br />
+              <span>
+                despertar o interesse das crianças. Ofereça alimentos ricos em
+                nutrientes para
+              </span>
+              <br />
+              <span>
+                fortalecer os hábitos saudáveis É claro que a alimentação rica
+                em nutrientes também
+              </span>
+              <br />
+              <span>
+                faz parte dos hábitos saudáveis — contudo, é comum que a
+                família encontre
+              </span>
+              <br />
+              <span>
+                resistência nessa hora. A dica é envolver as crianças nos
+                preparos, explicar sobre seus
+              </span>
+              <br />
+              <span>
+                benefícios para a saúde, persistir na oferta e, claro, dar o
+                exemplo com uma dieta
+              </span>
+              <br />
+              <span>
+                igualmente saudável. Esses não são os únicos hábitos saudáveis
+                que podem ser
+              </span>
+              <br />
+              <span>
+                inseridos na rotina da família, mas cada um deles pode ser o
+                pontapé inicial para que a
+              </span>
+              <br />
+              <span>
+                própria criança demande ou coordene uma rotina de qualidade e
+                bem-estar para todos.
+              </span>
+              <br />
+              <span>
+                Então, faça uma introdução de alguns deles de forma afetuosa e
+                gradativa. Perceba os
+              </span>
+              <br />
+              <span>
+                resultados e vá ajustando de acordo com a realidade da sua
+                família.
               </span>
             </span>
-            <span class="i-phone1415-pro-max1-text105">
-              <span>DESENVOLVIMENTO DE HÁBITOS SAUDÁVEIS</span>
-            </span>
-          </div>
-          <div class="i-phone1415-pro-max1-group3">
-            <span class="i-phone1415-pro-max1-text107">
-              <span>
-                <span>
-                  Os esportes e sua influência na cognição e função cerebral têm
-                  sido temas de estudo e debate ao longo dos anos, e as
-                  descobertas científicas têm demonstrado consistentemente os
-                  benefícios significativos que a prática esportiva pode trazer
-                  para o funcionamento do cérebro humano. Este texto
-                  dissertativo explorará como os esportes afetam a cognição e a
-                  função cerebral das pessoas, destacando os aspectos positivos
-                  desse relacionamento. Em primeiro lugar, é importante
-                  ressaltar que a prática regular de esportes tem um impacto
-                  positivo na saúde física, o que, por sua vez,beneficia a saúde
-                  cerebral. O exercício físico promove o fluxo sanguíneo e a
-                  oxigenação adequados do cérebro, melhorando a capacidade
-                  cognitiva. Além disso, a atividade física estimula a liberação
-                  de neurotransmissores como a dopamina e a serotonina, que
-                  estão relacionados ao humor e à função cognitiva. Isso pode
-                  ajudar a reduzir o estresse, a ansiedade e a depressão,
-                  fatores que, quando presentes em excesso, podem prejudicar a
-                  função cerebral.
-                </span>
-                <br />
-                <span>
-                  A prática esportiva também está diretamente relacionada ao
-                  desenvolvimento de
-                </span>
-                <br />
-                <span>
-                  habilidades cognitivas, como a concentração e a memória. Os
-                  atletas precisam manter
-                </span>
-                <br />
-                <span>
-                  a atenção em seus movimentos, estratégias e no ambiente ao seu
-                  redor. Isso melhora a capacidade de foco e a agilidade mental.
-                  Além disso, o treinamento esportivo envolve a repetição de
-                  padrões de movimento e técnicas, o que contribui para o
-                  desenvolvimento da memória muscular e da memória de
-                  procedimento, processos que
-                </span>
-                <br />
-                <span>
-                  envolvem o armazenamento e a recuperação de informações
-                  importantes.
-                </span>
-              </span>
-            </span>
-            <span class="i-phone1415-pro-max1-text118">
-              <span>COGNIÇÃO E FUNÇÃO CEREBRAL</span>
-            </span>
-          </div>
-          <div class="i-phone1415-pro-max1-group2">
-            <span class="i-phone1415-pro-max1-text120">
-              <span>
-                <span>
-                  Praticar esportes com frequência é mostrar que se importa com
-                  a saúde do seu corpo, além de ser um grande investimento para
-                  o seu bem-estar durante o envelhecimento. A prática do esporte
-                  melhora o condicionamento físico, diminui os riscos de doenças
-                  além de nos levar a um envelhecimento saudável, tudo isso faz
-                  com que as nossas habilidades físicas durem por mais tempo,
-                  garantindo a independência e a qualidade de vida mesmo com o
-                  passar dos anos.
-                </span>
-                <br />
-                <span>
-                  Além de melhorar a aptidão física, o exercício físico regular
-                  traz inúmeros benefícios para a saúde mental, como melhorar a
-                  capacidade cognitiva, concentração, foco e memória. A prática
-                  também melhora a qualidade do sono, auxilia no controle de
-                  ansiedade e depressão e melhora a autoestima.
-                </span>
-              </span>
-            </span>
-            <span class="i-phone1415-pro-max1-text125">
-              <span>BENEFÍCIOS FÍSICOS E MENTAIS</span>
-            </span>
-          </div>
-          <img
-            alt="Vector25205"
-            src="public/external/vector25205-yug.svg"
-            class="i-phone1415-pro-max1-vector2"
-          />
-          <span class="i-phone1415-pro-max1-text127">
-            <span class="i-phone1415-pro-max1-text128">APR</span>
-            <span class="i-phone1415-pro-max1-text129">
-              <span>OVEITE</span>
-              <br />
-              <span></span>
-            </span>
-            <span class="i-phone1415-pro-max1-text133">NOSSA</span>
-            <span>EXPOTEC!!</span>
           </span>
-          <img
-            alt="undrawhappynewsretsbd15207"
-            src="public/external/undrawhappynewsretsbd15207-mffk.svg"
-            class="i-phone1415-pro-max1-undrawhappynewsretsbd1"
-          />
+          <span class="i-phone1415-pro-max1-text105">
+            <span>DESENVOLVIMENTO DE HÁBITOS SAUDÁVEIS</span>
+          </span>
         </div>
+        <div class="i-phone1415-pro-max1-group3">
+          <span class="i-phone1415-pro-max1-text107">
+            <span>
+              <span>
+                Os esportes e sua influência na cognição e função cerebral têm
+                sido temas de estudo e debate ao longo dos anos, e as
+                descobertas científicas têm demonstrado consistentemente os
+                benefícios significativos que a prática esportiva pode trazer
+                para o funcionamento do cérebro humano. Este texto
+                dissertativo explorará como os esportes afetam a cognição e a
+                função cerebral das pessoas, destacando os aspectos positivos
+                desse relacionamento. Em primeiro lugar, é importante
+                ressaltar que a prática regular de esportes tem um impacto
+                positivo na saúde física, o que, por sua vez,beneficia a saúde
+                cerebral. O exercício físico promove o fluxo sanguíneo e a
+                oxigenação adequados do cérebro, melhorando a capacidade
+                cognitiva. Além disso, a atividade física estimula a liberação
+                de neurotransmissores como a dopamina e a serotonina, que
+                estão relacionados ao humor e à função cognitiva. Isso pode
+                ajudar a reduzir o estresse, a ansiedade e a depressão,
+                fatores que, quando presentes em excesso, podem prejudicar a
+                função cerebral.
+              </span>
+              <br />
+              <span>
+                A prática esportiva também está diretamente relacionada ao
+                desenvolvimento de
+              </span>
+              <br />
+              <span>
+                habilidades cognitivas, como a concentração e a memória. Os
+                atletas precisam manter
+              </span>
+              <br />
+              <span>
+                a atenção em seus movimentos, estratégias e no ambiente ao seu
+                redor. Isso melhora a capacidade de foco e a agilidade mental.
+                Além disso, o treinamento esportivo envolve a repetição de
+                padrões de movimento e técnicas, o que contribui para o
+                desenvolvimento da memória muscular e da memória de
+                procedimento, processos que
+              </span>
+              <br />
+              <span>
+                envolvem o armazenamento e a recuperação de informações
+                importantes.
+              </span>
+            </span>
+          </span>
+          <span class="i-phone1415-pro-max1-text118">
+            <span>COGNIÇÃO E FUNÇÃO CEREBRAL</span>
+          </span>
+        </div>
+        <div class="i-phone1415-pro-max1-group2">
+          <span class="i-phone1415-pro-max1-text120">
+            <span>
+              <span>
+                Praticar esportes com frequência é mostrar que se importa com
+                a saúde do seu corpo, além de ser um grande investimento para
+                o seu bem-estar durante o envelhecimento. A prática do esporte
+                melhora o condicionamento físico, diminui os riscos de doenças
+                além de nos levar a um envelhecimento saudável, tudo isso faz
+                com que as nossas habilidades físicas durem por mais tempo,
+                garantindo a independência e a qualidade de vida mesmo com o
+                passar dos anos.
+              </span>
+              <br />
+              <span>
+                Além de melhorar a aptidão física, o exercício físico regular
+                traz inúmeros benefícios para a saúde mental, como melhorar a
+                capacidade cognitiva, concentração, foco e memória. A prática
+                também melhora a qualidade do sono, auxilia no controle de
+                ansiedade e depressão e melhora a autoestima.
+              </span>
+            </span>
+          </span>
+          <span class="i-phone1415-pro-max1-text125">
+            <span>BENEFÍCIOS FÍSICOS E MENTAIS</span>
+          </span>
+        </div>
+        <img alt="Vector25205" src="public/external/vector25205-yug.svg" class="i-phone1415-pro-max1-vector2" />
+        <span class="i-phone1415-pro-max1-text127">
+          <span class="i-phone1415-pro-max1-text128">APR</span>
+          <span class="i-phone1415-pro-max1-text129">
+            <span>OVEITE</span>
+            <br />
+            <span></span>
+          </span>
+          <span class="i-phone1415-pro-max1-text133">NOSSA</span>
+          <span>EXPOTEC!!</span>
+        </span>
+        <img alt="undrawhappynewsretsbd15207" src="public/external/undrawhappynewsretsbd15207-mffk.svg" class="i-phone1415-pro-max1-undrawhappynewsretsbd1" />
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
